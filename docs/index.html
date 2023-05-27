@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>root::docs</title>
+    <style>
+        body,
+        #root {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            padding: 20px;
+            position: absolute;
+            background: #ccc
+        }
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2,
+        ul,
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        ul {
+            padding-inline-start: 0;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            list-style: none;
+            padding-bottom: 10px;
+        }
+
+        #root {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <h2><a href="https://aenri.notion.site/e515928367264a209b17c104a00392fd?v=87c5b9492bfd46abbe200df5ef4f6db6">docs</a></h2>
+        <ul>
+            <li><a href="doc/vmalloc">
+                    <h3>vmalloc</h3><small>custom virtual allocator</small>
+                </a></li>
+            <li><a href="doc/vmalloc">
+                    <h3>vmalloc design</h3><small>vmalloc design docs (notion.so)</small>
+                </a></li>
+
+            <li><a href="doc/rootir-rs">
+                    <h3>rootir</h3><small>rust library</small>
+                </a></li>
+            <li><a href="https://aenri.notion.site/rootir-specification-WIP-8def5595d9df4c49a091ac5836f53575">
+                    <h3>rootir specification</h3><small>specification and file format (notion.so)</small>
+                </a></li>
+            <li><a href="doc/root">
+                    <h3>root</h3><small>executable</small>
+                </a></li>
+            <li><a href="doc/root-design">
+                    <h3>root design</h3><small>vm design docs (notion.so)</small>
+                </a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
