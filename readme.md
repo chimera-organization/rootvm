@@ -1,5 +1,7 @@
 # root - a rust-based vm for any language
 
+root is an optimized rust-based virtual machine for any language. It is designed to be a target for transpilers, and to be easily embeddable in other projects.
+
 ## sub-libraries
 
 ### rootir
@@ -18,5 +20,8 @@ rally is an assembly-like language that compiles to rootir, and can be used as a
 root-llvm is a bidirectional transpiler between rootir and llvm ir.
 
 ### eden
-eden is a unidirectional transpiler from java bytecode to rootir.
+eden is a bidirectional transpiler from java bytecode to rootir.
+
+### vstarr
+vstarr is a virtual stack <-> register bidirectional ir assembler, allowing transpilers to easily convert between stack-based and register-based 
 
